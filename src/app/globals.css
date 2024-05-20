@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 h1 {
-  @apply font-bold text-5xl;
+  @apply font-bold text-3xl md:text-4xl lg:text-5xl;
 }
 
 h2 {
-  @apply text-neutral-600 text-xl max-w-[80ch];
+  @apply text-neutral-600 text-lg md:text-xl max-w-[80ch];
 }
 
 h3 {

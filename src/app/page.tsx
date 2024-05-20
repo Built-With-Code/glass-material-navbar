@@ -27,7 +27,7 @@ export default function Home() {
           Remove intermediaries, collect royalties directly from the source, and
           ensure faster payments
         </h2>
-        <div className="grid grid-cols-3 gap-16 mt-10">
+        <div className="grid md:grid-cols-3 gap-8 md:gap-16 mt-10">
           <div>
             <h3>Fast</h3>
             <p>
@@ -54,8 +54,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="h-screen bg-green-400 flex flex-col justify-center">
+      <section className="h-screen bg-violet-300 flex flex-col gap-6 justify-center">
         <h1>Join the movement.</h1>
+        <h2>Sign up for early access.</h2>
       </section>
     </main>
   );
