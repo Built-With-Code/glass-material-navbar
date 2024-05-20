@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main>
       <Navbar />
-      <section className="flex flex-col items-center gap-6">
+      <section className="h-screen flex flex-col justify-center items-center gap-6 dark:bg-neutral-800 -mt-24">
         <h1>Global royalties made simple</h1>
         <h2>
           The only platform built for global, direct music licensing and
@@ -21,7 +21,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="flex flex-col items-center gap-6 bg-neutral-50">
+      <section className="flex flex-col items-center gap-6 bg-neutral-50 dark:bg-neutral-500">
         <h1>Transforming global royalty collections</h1>
         <h2>
           Remove intermediaries, collect royalties directly from the source, and
@@ -54,7 +54,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="h-screen bg-violet-300 flex flex-col gap-6 justify-center">
+      <section className="h-screen bg-violet-300 dark:bg-violet-600 flex flex-col gap-6 justify-center">
         <h1>Join the movement.</h1>
         <h2>Sign up for early access.</h2>
       </section>
