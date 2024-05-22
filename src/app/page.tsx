@@ -21,7 +21,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="flex flex-col items-center gap-6 bg-neutral-50 dark:bg-neutral-500">
+      <section className="flex flex-col justify-center items-center gap-6 bg-neutral-50 dark:bg-neutral-600 min-h-[70vh]">
         <h1>Transforming global royalty collections</h1>
         <h2>
           Remove intermediaries, collect royalties directly from the source, and
